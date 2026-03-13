@@ -1,6 +1,6 @@
 mod base64;
 
 fn main() {
-     let word = "sim";
+     let word = "thats a test";
     println!("{}",base64::encode(word));
 }
